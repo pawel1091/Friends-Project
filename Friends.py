@@ -190,7 +190,7 @@ def creating_DataFrame_with_lines(URL):
         if b[:6] == "season" or b[:2] == "10":
             links_list.append(b)
 
-    # removing duplicated from list without changing its order
+    # Removing duplicated from list without changing its order
     del links_list[0]
     del links_list[-1]
     del links_list[-18]
