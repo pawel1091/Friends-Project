@@ -12,7 +12,7 @@ from matplotlib import rcParams
 rcParams.update({'figure.autolayout': True})
 
 
-# Creating DataFrame from tabels
+# Creating DataFrame from tables
 
 def requests_html_code(URL):
     views_code = requests.get(URL).text

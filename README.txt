@@ -30,9 +30,9 @@ Opis działania:
 	stworzenia tych plików zostały pobrane z następujących stron:
 		https://en.wikipedia.org/wiki/List_of_Friends_episodes
 		http://www.livesinabox.com/friends/
-	za pomocą biblioteki bs4 oraz requests.
+	        (za pomocą biblioteki bs4 oraz requests)
 		Pobrane dane zostały przetworzone do postaci tabel
 	za pomocą biblioteki pandas. Następnie na podstawie tych 
 	tabel sporządzono wykresy za pomocą biblioteki matplotlib.	
-		Istnieje możliwość również generowania ich automatycznie, 
-	jednak trwa to conajmniej kilka minut.
+	Istnieje również możliwość ponownego generowania plików zawierających
+	dane, jednak trwa to co najmniej kilka minut.
